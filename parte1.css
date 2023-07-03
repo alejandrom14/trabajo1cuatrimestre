@@ -1,0 +1,371 @@
+* {
+	font-family: sans-serif;
+}
+
+/* div general */
+
+.div-contenedor {
+	height: auto;
+}
+
+/* div encabezado */
+
+.div-header {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	background: rgb(255,255,255);
+	background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(0,0,0,0.6026785714285714) 30%, rgba(0,0,0,1) 80%);
+	width: 100%;
+	height: 250px;
+	margin-bottom: 20px;
+}
+
+
+.logo1 {
+	margin-top: 10px;
+	width: 300px;
+	height: 230px;
+}
+
+.logo2 {
+	margin-top: 10px;
+	width: 800px;
+	height: 230px;
+}
+
+/*Contenedor redes sociales*/
+
+.div-redes {
+	margin-top: 50px;
+}
+
+.h3-redes {
+	font-size: 35px;
+	text-decoration: underline;
+	text-shadow: 0 0 15px rgb(255, 255, 255);
+	color: rgb(255, 255, 255);
+	margin-bottom: 25px;
+}
+
+.lista-redes {
+	list-style: none;
+	margin-left: 40px;
+}
+
+.div-redes ul li {
+	margin: 0px 5px;
+	width: 75px;
+	height: 75px;
+	line-height: 75px;
+	border: 5px solid rgb(255, 255, 255);
+	border-radius: 50%;
+	float: left;
+	text-align: center;
+	transition: all 0.5s ease;
+}
+
+.div-redes ul li .fa {
+	color: rgb(255, 255, 255);
+	transition: all 0.5s ease;
+}
+
+.div-redes ul li.facebook:hover {
+	border: 5px solid rgb(59, 89, 152);
+	box-shadow: 0 0 15px rgb(59, 89, 152);
+	transition: all 0.5s ease;
+}
+
+.div-redes ul li:hover .fa-facebook  {
+	color: rgb(59, 89, 152);
+	text-shadow: 0 0 15px rgb(59, 89, 152);
+	transition: all 0.5s ease;
+}
+
+.div-redes ul li.twitter:hover {
+	border: 5px solid rgb(0, 172, 238);
+	box-shadow: 0 0 15px rgb(0, 172, 238);
+	transition: all 0.5s ease;
+}
+
+.div-redes ul li:hover .fa-twitter  {
+	color: rgb(0, 172, 238);
+	text-shadow: 0 0 15px rgb(0, 172, 238);
+	transition: all 0.5s ease;
+}
+
+.div-redes ul li.instagram:hover {
+	border: 5px solid rgb(221, 42, 123);
+	box-shadow: 0 0 15px rgb(221, 42, 123);
+	transition: all 0.5s ease;
+}
+
+.div-redes ul li:hover .fa-instagram  {
+	color: rgb(221, 42, 123);
+	text-shadow: 0 0 15px rgb(221, 42, 123);
+	transition: all 0.5s ease;
+}
+
+.div-redes ul li.google:hover {
+	border: 5px solid rgb(255, 0, 0);
+	box-shadow: 0 0 15px rgb(255, 0, 0);
+	transition: all 0.5s ease;
+}
+
+.div-redes ul li:hover .fa-google  {
+	color: rgb(255, 0, 0);
+	text-shadow: 0 0 15px rgb(255, 0, 0);
+	transition: all 0.5s ease;
+}
+
+.div-redes ul li.whatsapp:hover {
+	border: 5px solid rgb(79, 206, 93);
+	box-shadow: 0 0 15px rgb(79, 206, 93);
+	transition: all 0.5s ease;
+}
+
+.div-redes ul li:hover .fa-whatsapp  {
+	color: rgb(79, 206, 93);
+	text-shadow: 0 0 15px rgb(79, 206, 93);
+	transition: all 0.5s ease;
+}
+
+/* Imagen de fondo para el body */
+
+.body-background {
+	background-image: url(./imagenes/fondobody3.png);
+}
+
+/* div barra de navegacion */
+
+.div-barra-nav {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	height: auto;
+	font-family:'sans-serif';
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.navbar {
+	margin: 3px;
+	background-color: rgb(255, 255, 255);
+	border-radius: 15px;
+	border: 2px solid rgb(0, 0, 0);
+}
+
+.nav-link:hover {
+	color: rgb(86, 150, 233);
+}
+
+.nav-link {
+	margin-left: 25px;
+}
+
+.nav-web {
+	color: rgb(0, 0, 0);
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 7px;
+	padding: 5px;
+}
+
+.navbar-brand:hover {
+	color: rgb(86, 150, 233);
+}
+
+/* div del titulo de la galeria de imagenes*/
+
+.div-titulo-galeria {
+	display: flex;
+	align-items: center;
+ 	flex-direction: row;
+	justify-content: center;
+	max-width: 330px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	font-family:'sans-serif';
+	font-size: 30px;
+	font-weight: bold;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 15px;
+}
+
+.div-del-p {
+	margin: auto;
+}
+
+.p-galeria {
+	margin: auto;
+}
+
+/* div contenedor del formulario*/
+
+.form-container {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-image: url(./imagenes/imagenform.jpg);
+	background-size: 100% 100%;
+	padding: 100px;
+	max-width: 1200px;
+	margin: 70px auto;
+	flex-grow: 1;
+	font-family: sans-serif;
+	box-shadow: 18px 22px 32px 28px rgba(0,0,0,0.62);
+	-webkit-box-shadow: 18px 22px 32px 28px rgba(0,0,0,0.62);
+	-moz-box-shadow: 18px 22px 32px 28px rgba(0,0,0,0.62);
+}
+
+.form {
+	min-width: 440px;
+	flex: 1;
+	text-align: center;
+	padding: 30px;
+	order: 5;
+}
+
+.form-h1 {
+	font-family: sans-serif;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+.form-input {
+	width: 100%;
+	padding: 7px;
+	margin: 15px 0px;
+	background: rgb(240, 240, 240);
+	color: rgb(0, 0, 0)
+}
+
+.form textarea {
+	min-height: 140px;
+	resize: none;
+}
+
+/* div imagen */
+
+.form-img {
+	background-color: rgb(255, 255, 255);
+	border-radius: 30px;
+	flex: 1;
+	display: flex;
+	padding: 10px;
+	margin-top: 100px;
+	min-width: 300px;
+	max-width: 400px;
+	order: 2;
+}
+
+.imagenemail {
+	width: 300px;
+	height: 200px;
+}
+
+.form-img div {
+	padding: 10px;
+}
+
+.datos-form {
+	margin: 15px;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+
+.img-container div {
+	border-radius: 50%;
+	padding: 0;
+}
+
+.form-img img {
+	width: 100%;
+	margin: auto;
+	max-width: 200px;
+}
+
+.form input[type="submit"] {
+	background-color: rgb(0, 0, 0);
+	font-family: sans-serif;
+	font-size: 20px;
+	color: rgb(255, 255, 255);
+}
+
+.form input[type="submit"]:hover {
+	background-color: #202020;
+}
+
+/* div carousel de imagenes */
+
+.carousel-container {
+	margin: auto;
+	max-width: 900px;
+	box-shadow: 18px 22px 32px 28px rgba(0,0,0,0.62);
+	-webkit-box-shadow: 18px 22px 32px 28px rgba(0,0,0,0.62);
+	-moz-box-shadow: 18px 22px 32px 28px rgba(0,0,0,0.62);
+}
+
+.imagen-carousel {
+	margin: auto;
+	width: 900px;
+	height: 700px;
+	object-fit: cover;
+}
+
+.div-volver-inicio {
+	display: flex;
+	align-items: center;
+ 	flex-direction: row;
+	justify-content: center;
+	max-width: 330px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(0, 0, 0);
+	font-family:'sans-serif';
+	font-size: 30px;
+	font-weight: bold;
+	border: 2px solid rgb(0, 0, 0);
+	border-radius: 15px;
+}
+
+.div-del-a {
+	margin: auto;
+}
+
+.a-galeria {
+	margin: auto;
+}
+
+.div-footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: rgb(196,196,196);
+	background: linear-gradient(0deg, rgba(196,196,196,0.8715861344537815) 0%, rgba(0,0,0,0.49343487394957986) 35%, rgba(0,0,0,1) 100%);	
+	height: 230px;
+	width: 100%;
+}
+
+.h5-text {
+	font-family: sans-serif;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	margin: 30px;
+	margin-top: 10px;
+}
+
+.mensaje-error {
+	color: rgb(255, 0, 0);
+	font-weight: bold;
+}
+
+.a-footer {
+	font-size: 30px;
+}

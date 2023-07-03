@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trabajo Final Primer Cuatrimestre</title>
+    <title>Ferreteria Home Repair</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
@@ -13,9 +13,190 @@
         crossorigin="anonymous"></script>
     <script type="text/javascript" src="./parte1.js"></script>
     <link rel="stylesheet" href="./parte1.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 
 <body>
+    <!--Contenedor general-->
+    <div class="div-contenedor">
+        <!--Div del header-->
+        <div class="div-header">
+            <div class="div-logo">
+                <img class="logo1" src="./imagenes/logonew.png" alt="Logo de Ferreteria Home Repair" id="Comienzo">
+                
+            </div>
+            <div class="div-logo">
+                <img class="logo2" src="./imagenes/headerpromo.jpg" alt="Logo promocion">
+            </div>
+            <div class="div-redes">
+                <h3 class="h3-redes">Síguenos en nuestras redes sociales</h3>
+                <ul class="lista-redes">
+                    <li class="facebook"><a href="https://es-la.facebook.com/"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="twitter"><a href="https://twitter.com/"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="instagram"><a href="https://www.instagram.com/"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="google"><a href="https://www.google.com.ar/"><i class="fa fa-google fa-2x" aria-hidden="true"></i></a></li>
+                    <li class="whatsapp"><a href="https://web.whatsapp.com/"><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!--Div contenedor de la imagen de fondo-->
+        <div class="body-background">
+            <!--Div de la barra de navegacion-->
+            <div class="div-barra-nav">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" id="Inicio" href="parte1.html">Inicio</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <!--Lista links-->
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#FormConsultas">Consulte nuestros
+                                        productos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#divFooter">Información de la
+                                        Empresa</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="https://ar.dewalt.global/">DeWalt</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link"
+                                        href="https://www.ar.boschherramientasinalambricas.com/">Bosch</a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-web nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">Webs Utiles</a>
+                                    <!--Lista menu desplegable-->
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="https://getbootstrap.com/">Bootstrap</a></li>
+                                        <li><a class="dropdown-item" href="https://www.w3schools.com/">W3schools</a>
+                                        </li>
+                                        <li><a class="dropdown-item" href="https://www.youtube.com/">YouTube</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="div-titulo-galeria">
+                <div class="div-del-p">
+                    <p class="p-galeria">Galeria de Imagenes</p>
+                </div>
+            </div>
+            <!--Div del carousel de imagenes-->
+            <div class="carousel-container">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <!--Div indicadores inferiores-->
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                            aria-label="Slide 4"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                            aria-label="Slide 5"></button>
+                    </div>
+                    <!--Div con las imagenes seleccionadas-->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="imagen-carousel" src="./imagenes/herramientas4.jpg" class="d-block w-100"
+                                alt="Desarroladores Web">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="imagen-carousel" src="./imagenes/herramientas2.jpg" class="d-block w-100"
+                                alt="Desarroladores Web">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="imagen-carousel" src="./imagenes/herramientas3.jpg" class="d-block w-100"
+                                alt="Desarroladores Web">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="imagen-carousel" src="./imagenes/herramientas1.jpg" class="d-block w-100"
+                                alt="Desarroladores Web">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="imagen-carousel" src="./imagenes/herramientas5.jpg" class="d-block w-100"
+                                alt="Desarroladores Web">
+                        </div>
+                    </div>
+                    <!--Botones anterior y siguiente-->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+            <!--A con Id para ir hasta el formulario-->
+            <a id="FormConsultas"></a>
+            <!--Contenedor del formulario-->
+            <div class="form-container">
+                <form class="form">
+                    <h1 class="form-h1">Envíenos su consulta</h1>
+                    <div class="form-section">
+                        <input type="text" class="form-input form-control" placeholder="Escriba su nombre" id="nombre">
+                        <small class="mensaje-error" id="error-nombre"></small>
+                    </div>
+                    <div class="form-section">
+                        <input type="email" class="form-input form-control" placeholder="Escriba su email" id="email">
+                        <small class="mensaje-error" id="error-email"></small>
+                    </div>
+                    <div class="form-section">
+                        <input type="text" class="form-input form-control" placeholder="Escriba el asunto" id="asunto">
+                        <small class="mensaje-error" id="error-asunto"></small>
+                    </div>
+                    <div class="form-section">
+                        <textarea class="form-input form-control" placeholder="Escriba su mensaje" id="mensaje"></textarea>
+                        <small class="mensaje-error" id="error-mensaje"></small>
+                    </div>
+                    <!--Boton enviar formulario-->
+                    <div class="form-section">
+                        <input type="submit" class="form-input" id="btnEnviarForm">
+                    </div>
+                </form>
+                <!--Div de la imagen del formulario-->
+                <div class="form-img d-flex">
+                    <div class="img-container">
+                        <p class="datos-form">Correo electrónico: consultas@homerepair.com.ar</p>
+                        <p class="datos-form">Dirección: Avenida Del Valle N° 4500. Olavarría</p>
+                        <p class="datos-form">Tel: (02284)15112233</p>
+                        <div class="d-flex aling-items-center">
+                            <img class="imagenemail" src="./imagenes/email2.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Link para volver al inicio-->
+            <div class="div-volver-inicio">
+                <div class="div-del-a">
+                    <a class="a-galeria" href="#Comienzo">Volver al Inicio</a>
+                </div>
+            </div>
+        </div>
+        <!--Div pie de pagina-->
+        <div class="div-footer" id="divFooter">
+            <h5 class="h5-text">Dirección: Avenida Del Valle N° 4500</h5>
+            <h5 class="h5-text">Olavarría, Provincia de Buenos Aires</h5>
+            <h5 class="h5-text">Tel: (02284)15112233</h5>
+            <h5 class="h5-text">CUIT: 20-2211456876-5</h5>
+            <a class="h5-text a-footer" href="./parte2.html">Ir a Lista de tareas ==></a>
+        </div>
+    </div>
 
 </body>
 
